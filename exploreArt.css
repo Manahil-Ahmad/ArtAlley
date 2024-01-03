@@ -1,0 +1,175 @@
+
+body {
+    font-family: 'Kaisei Decol';
+    margin: 0;
+    background-color: black;
+    animation: transitionIn 0.15s;
+    scroll-behavior: smooth;
+}
+
+.exploreart {
+    background-color: rgb(165, 122, 169);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.exploreart-content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.exploreart-content h1 {
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+
+body{
+background-color: rgb(10, 10, 10);
+color: white;
+font-family: 'Kaisei Decol';
+/* Add other styles as needed... */
+}
+
+.header {
+width: 100%;
+height: 60px;
+background-color: rgb(17, 92, 145);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+z-index: 100;
+position: fixed;
+padding-bottom: 10px;
+}
+
+.hamburger {/*do it later*/
+display: none;
+}
+
+.logo {
+font-size: 50px;
+}
+
+.nav-bar ul {
+list-style: none;
+display: flex;
+}
+
+.nav-bar ul li {
+margin: 0 5px;
+}
+
+.nav-bar ul li a {
+display: block;
+color: white;
+font-size: 20px;
+padding: 10px 15px;
+border-radius: 50px;
+transition: 0.15s;
+text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.exploreart {
+background-color: rgb(6, 6, 6);
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+}
+.gallery-container {
+    display: flex;
+    justify-content: space-between; /* Adjust the spacing between columns */
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.column {
+    width: 30%; /* 3 images per column */
+    margin: 10px;
+}
+
+.large-column {
+    width: 30%; /* Adjust the width of the large column */
+    margin: 10px;
+}
+
+.column img,
+.large-column img {
+    width: 100%;
+    height: auto; /* Allow images to maintain their original aspect ratio */
+    display: block;
+   
+    margin-bottom: 10px;
+}
+
+.custom-size {
+    width: 100%;
+    max-height: 1000px; /* Set a maximum height for image 7 and 8 */
+    object-fit: cover;
+}
+
+/* Add margin to columns 1 and 3 */
+.column:first-child,
+.column:last-child {
+    margin-top: 100px; /* Adjust the margin as needed */
+}
+@keyframes transitionIn{
+    from{
+       opacity: 0;
+       transform: rotateX(-10deg)
+    }
+    to{
+      opacity:1;
+      transform:rotateX('0');
+    }
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #f5f5f5;
+    color: #125688;
+  }
+  
+  .fa-twitter {
+    background: #f5f5f5;
+    color: #125688;
+  }
+  
+  .fa-google {
+    background: #f5f5f5;
+    color: #125688;
+  }
+  
+  
+  
+  
+  .fa-instagram {
+    background: #f5f5f5;
+    color: #125688;
+    size: 50px;
+  }
